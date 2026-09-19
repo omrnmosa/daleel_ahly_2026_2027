@@ -80,7 +80,7 @@ def init_system():
     )
     
     model = genai.GenerativeModel(
-        model_name="gemini-3.6-flash",
+        model_name="gemini-2.5-flash",
         system_instruction=system_instruction
     )
     
